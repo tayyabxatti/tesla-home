@@ -1,11 +1,16 @@
 import './App.css';
-
+import Headers from './components/header';
 function App() {
   return (
     <div className="App">
-      <h1>Tayyab</h1>
+      <Headers/>
+      {/* items=>snapping */}
+      {/* items=>snapping */}
+      {/* items=>snapping */}
+      {/* items=>snapping */}
     </div>
   );
 }
 
 export default App;
+  

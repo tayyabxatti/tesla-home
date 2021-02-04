@@ -5,7 +5,7 @@ import ModelS from './assets/Desktop-ModelS.jpeg'
 import Model3 from './assets/Desktop-Model3.jpeg'
 import ModelX from './assets/Desktop-ModelX.jpeg'
 import ModelY from './assets/Desktop-ModelY.jpeg'
-import SolarPanels from './assets/Desktop-SolarPanels.jpeg'
+import SolarPanels from './assets/SolarPanels.jpeg'
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg'
 import Item from './components/item.js'
 function App() {
@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Headers/>
       <div className="app__itemsContainer">
-        <Item
+        {/* <Item
         title='Lowest Cost OSlar Panels in America'
         desc='Money-back gurantee'
         backgroundImgImg={SolarPanels}
@@ -23,7 +23,7 @@ function App() {
         rightBtnLink=''
         twoButtons='true'
         first 
-        />
+        /> */}
 
         <Item
         title='Model S'
